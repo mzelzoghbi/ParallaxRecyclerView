@@ -10,6 +10,7 @@ import android.view.MenuItem;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,7 +28,9 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.recyclerView)
     ParallaxRecyclerView mRecyclerView;
     @BindView(R.id.adView)
+
     AdView mAdView;
+    InterstitialAd mInterstitialAd;
 
     RecyclerViewAdapter adapter;
 
@@ -78,6 +81,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onResume() {
         super.onResume();
+        loadInterstitalAd();
+        loadBannerAd();
+    }
+
+    private void loadBannerAd() {
         AdRequest adRequest = new AdRequest.Builder()
                 .build();
         mAdView.loadAd(adRequest);
@@ -85,6 +93,28 @@ public class MainActivity extends AppCompatActivity {
         if (mAdView != null) {
             mAdView.resume();
         }
+    }
+
+    private void loadInterstitalAd() {
+        // set the ad unit ID
+        mInterstitialAd = new InterstitialAd(this);
+
+        mInterstitialAd.setAdUnitId(getString(R.string.interstitial_ad_unit_id));
+
+        AdRequest adRequest = new AdRequest.Builder()
+                .build();
+
+        // Load ads into Interstitial Ads
+        mInterstitialAd.loadAd(adRequest);
+
+    }
+
+    @Override
+    public void onBackPressed() {
+        if (mInterstitialAd.isLoaded())
+            mInterstitialAd.show();
+        else
+            super.onBackPressed();
     }
 
     @Override
