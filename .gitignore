@@ -28,3 +28,4 @@ gradlew
 gradlew.bat
 app/*.apk
 
+keystore.jks
