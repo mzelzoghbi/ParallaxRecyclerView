@@ -1,5 +1,5 @@
 # ParallaxRecyclerView 
-Simple Implmentation for Parallax effect applied on a RecyclerView items with loadmore feature.
+Simple Implmentation for Parallax effect applied on a RecyclerView items with loadmore feature based on [ParallaxRecyclerView](https://github.com/yayaa/ParallaxRecyclerView) Library and [AbstractRecyclerViewFooterAdapter](https://gist.github.com/mSobhy90/cf7fa98803a0d7716a4a#file-recyclerviewfooteradapterimpl-java) Gist.
 
 You can checkout the sample app, or view the app directly on GooglePlayStore
 
