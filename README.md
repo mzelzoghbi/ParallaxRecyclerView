@@ -3,7 +3,7 @@ Simple Implmentation for Parallax effect applied on a RecyclerView items with lo
 
 You can checkout the sample app, or view the app directly on GooglePlayStore
 
-<a href="https://play.google.com/store/apps/details?id=me.mzak.parallexrecyclerview"><img src="https://camo2.githubusercontent.com/3310a5aa4fb7bb0282125157070a21ca519d1406/687474703a2f2f7332352e706f7374696d672e6f72672f6c37746d66687879372f6765745f69745f6f6e5f676f6f676c655f706c61792e6a7067" alt="" data-canonical-src="http://s25.postimg.org/l7tmfhxy7/get_it_on_google_play.jpg" style="max-width:100%;" data-pin-nopin="true"></a>
+<a href='https://play.google.com/store/apps/details?id=me.mzak.parallexrecyclerview&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width="300px"/></a>
 
 # GIF & Video
 
