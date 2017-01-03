@@ -1,5 +1,5 @@
 # ParallaxRecyclerView 
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ParallaxRecyclerView-brightgreen.svg?style=flat)]
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ParallaxRecyclerView-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/3773)
 
 Simple Implmentation for Parallax effect applied on a RecyclerView items with loadmore feature based on [ParallaxRecyclerView](https://github.com/yayaa/ParallaxRecyclerView) Library and [AbstractRecyclerViewFooterAdapter](https://gist.github.com/mSobhy90/cf7fa98803a0d7716a4a#file-recyclerviewfooteradapterimpl-java) Gist.
 
